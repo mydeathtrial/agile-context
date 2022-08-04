@@ -91,7 +91,6 @@ public class Constant {
         public static final String COLON = ":";
         public static final String SPOT = ".";
 
-        public static final String DIC_SPLIT = "$$";
         public static final String DA_KUO_LEFT = "{";
         public static final String DA_KUO_RIGHT = "{";
         public static final String COMMA = ",";
@@ -164,5 +163,24 @@ public class Constant {
     public static class RequestAttributeAbout {
         public static final String ATTRIBUTE_ERROR = "$cloud.agileframework.attributeError";
         public static final String ERROR_EXCEPTION = "$cloud.agileframework.exception";
+    }
+
+    public static class AgileAbout {
+        /**
+         * 默认的字典区域（datasource）
+         */
+        public static final String DIC_DATASOURCE = "DICTIONARY_DATA_CACHE";
+        /**
+         * 默认的字典分隔符
+         */
+        public static final String DIC_SPLIT = "$$";
+        /**
+         * 默认的字典翻译失败，使用空值标记
+         */
+        public static final String DIC_TRANSLATE_FAIL_NULL_VALUE = "$cloud.agileframework.dic.null";
+        /**
+         * 默认的字典翻译失败，使用翻译前值标记
+         */
+        public static final String DIC_TRANSLATE_FAIL_VALUE = "$cloud.agileframework.dic.default";
     }
 }

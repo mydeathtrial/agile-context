@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN" "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
+<!DOCTYPE module PUBLIC "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+        "http://www.puppycrawl.com/dtds/configuration_1_3.dtd">
 
 <module name="Checker">
 
@@ -45,7 +46,7 @@
         <module name="JavadocMethod">
             <property name="tokens" value="METHOD_DEF"/>
             <!--允许get set 方法没有注释-->
-<!--            <property name="allowMissingPropertyJavadoc" value="true"/>-->
+            <!--            <property name="allowMissingPropertyJavadoc" value="true"/>-->
             <message key="javadoc.missing" value="方法注释：缺少Javadoc注释。"/>
         </module>
 
@@ -124,8 +125,8 @@
         <module name="EmptyBlock"/>
         <!-- 检查左大括号位置 -->
         <module name="LeftCurly"/>
-<!--        &lt;!&ndash; 检查代码块是否缺失{} &ndash;&gt;-->
-<!--        <module name="NeedBraces"/>-->
+        <!--        &lt;!&ndash; 检查代码块是否缺失{} &ndash;&gt;-->
+        <!--        <module name="NeedBraces"/>-->
         <!-- 检查右大括号位置 -->
         <module name="RightCurly"/>
 
@@ -143,10 +144,10 @@
         <!-- 检查子表达式中是否有赋值操作 -->
         <module name="InnerAssignment"/>
         <!-- 检查是否有"魔术"数字 -->
-<!--        <module name="MagicNumber">-->
-<!--            <property name="ignoreNumbers" value="-1, 0, 1"/>-->
-<!--            <property name="ignoreAnnotation" value="true"/>-->
-<!--        </module>-->
+        <!--        <module name="MagicNumber">-->
+        <!--            <property name="ignoreNumbers" value="-1, 0, 1"/>-->
+        <!--            <property name="ignoreAnnotation" value="true"/>-->
+        <!--        </module>-->
         <!-- 检查switch语句是否有default -->
         <module name="MissingSwitchDefault"/>
         <!-- 检查是否有过度复杂的布尔表达式 -->

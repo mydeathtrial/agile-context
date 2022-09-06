@@ -182,5 +182,9 @@ public class Constant {
          * 默认的字典翻译失败，使用翻译前值标记
          */
         public static final String DIC_TRANSLATE_FAIL_VALUE = "$cloud.agileframework.dic.default";
+        /**
+         * 数据权限组标记
+         */
+        public static final String AUTH_GROUP = "AUTH_GROUP";
     }
 }

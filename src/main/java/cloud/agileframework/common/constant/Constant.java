@@ -13,8 +13,6 @@ public class Constant {
         public static final String BODY_SOURCE = INNER_PARAM_PRE + ".body.source";
         //body引用，当入参的value为该值，则代表整个入参为从body中解析
         public static final String BODY_REF = INNER_PARAM_PRE + ".body.ref";
-        public static final String SERVICE = "agileInParamService";
-        public static final String METHOD = "agileInParamMethod";
     }
 
     /**
